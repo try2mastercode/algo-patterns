@@ -1,7 +1,7 @@
 # DSA Patterns — Union of Blind-75, Neetcode-150 & SDOT-41
 
 The combined, deduplicated set of every distinct LeetCode problem solved across
-[Blind-75](../Blind-75), [Neetcode-150](../Neetcode-150), and [SDOT-41](../SDOT-41).
+[Blind-75](https://github.com/try2mastercode/Blind-75), [Neetcode-150](https://github.com/try2mastercode/Neetcode-150), and [SDOT-41](https://github.com/try2mastercode/SLOT-41).
 Where a problem appeared in more than one source list, only one solution is kept here.
 
 Source sizes: Blind-75 = 87, Neetcode-150 = 150, SDOT-41 = 41 → **173 unique problems**.
