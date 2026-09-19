@@ -1,0 +1,19 @@
+class Solution:
+    def canCompleteCircuit(self, gas, cost):
+        if sum(gas) < sum(cost):
+            return -1
+        total = 0
+        start = 0
+        for i in range(len(gas)):
+            total += gas[i] - cost[i]
+            if total < 0:
+                start = i + 1
+                total = 0
+        return start
+
+
+sol = Solution()
+assert sol.canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]) == 3
+assert sol.canCompleteCircuit([2, 3, 4], [3, 4, 3]) == -1
+assert sol.canCompleteCircuit([5], [4]) == 0
+print("All tests passed")
